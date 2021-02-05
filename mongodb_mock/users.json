@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "601d403b489b5132847e131d"
+  },
+  "name": "worarat",
+  "username": "jawasabi",
+  "password": "$2b$10$juL0KgbaE5CTX.IWnJo.3e5z/uoPzi9.jX9KoRWsxrlGq3g/ebdhu",
+  "phone": "0835599255",
+  "email": "jawasabi@gmail.com",
+  "citizenId": "1231231231231",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601d40d92cbbf81d5c7ea5d7"
+  },
+  "name": "chanvit",
+  "username": "mos",
+  "password": "$2b$10$5n3AJ9hoWKxDpocdrkItduPoLpIP7QMBNYaGbaQIi.Pv.IoOTIwRW",
+  "phone": "0824838288",
+  "email": "moschanvitzaza@gmail.com",
+  "citizenId": "1102002283259",
+  "__v": 0
+}]

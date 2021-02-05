@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "601a5458b5fa0d7d65f9fca6"
+  },
+  "name": "ดีมาก",
+  "location": {
+    "latitude": "13.689050676368517",
+    "longitude": "100.50799815875279"
+  },
+  "price": "1500",
+  "left": 27,
+  "isActive": true
+},{
+  "_id": {
+    "$oid": "601a5dbcb5fa0d7d65f9fca9"
+  },
+  "name": "นอนสบาย",
+  "location": {
+    "latitude": "12.689050369584417",
+    "longitude": "150.50792964875279"
+  },
+  "price": "2000",
+  "left": 0,
+  "isActive": true
+},{
+  "_id": {
+    "$oid": "601a5e15b5fa0d7d65f9fcae"
+  },
+  "name": "หลับลึก",
+  "location": {
+    "latitude": "14.689058525384417",
+    "longitude": "102.50792270876396"
+  },
+  "price": "2000",
+  "left": 5,
+  "isActive": false
+},{
+  "_id": {
+    "$oid": "601adcb0d5bb1e2d628b5f1d"
+  },
+  "name": "ฟินฟิน",
+  "location": {
+    "latitude": "14.689050676384418",
+    "longitude": "101.50792270875277"
+  },
+  "price": "2500",
+  "left": 22,
+  "isActive": true
+}]

@@ -75,7 +75,8 @@ router.get(
                                     else{
                                         const booking = new Booking({
                                             id_user,
-                                            id_restRoom
+                                            id_restRoom,
+                                            Booking_numberofroom
                                           });
                                           booking.save((err, data) => {
                                             if(data) {
