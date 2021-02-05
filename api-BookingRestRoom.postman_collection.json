@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "3a6ed8ca-434f-4d6c-a674-0c8eb70536ba",
+		"name": " api-BookingRestRoom",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "chanvit",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "mos",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "987654321",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "0824838288",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "moschanvit@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "citizenId",
+							"value": "1102002283259",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				},
+				"description": "register"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "mos2",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "987654323",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				},
+				"description": "login"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/601d40d92cbbf81d5c7ea5d7",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "phone",
+							"value": "01234567789",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "moschanvitzaza@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "18",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "citizenId",
+							"value": "8888888888888",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/601d40d92cbbf81d5c7ea5d7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"601d40d92cbbf81d5c7ea5d7"
+					]
+				},
+				"description": "Update user\r\nparam user id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/restroom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/restroom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"restroom"
+					]
+				},
+				"description": "get restroom"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/restroom/601a5458b5fa0d7d65f9fca6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost:3000/restroom/601a5458b5fa0d7d65f9fca6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"restroom",
+						"601a5458b5fa0d7d65f9fca6"
+					]
+				},
+				"description": "get restroom by id\r\nparam id restroom"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/Booking",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id_restRoom",
+							"value": "601a5458b5fa0d7d65f9fca6",
+							"type": "text"
+						},
+						{
+							"key": "id_user",
+							"value": "601d403b489b5132847e131d",
+							"type": "text"
+						},
+						{
+							"key": "Booking_numberofroom",
+							"value": "80",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/Booking",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Booking"
+					]
+				},
+				"description": "Booking\r\n"
+			},
+			"response": []
+		}
+	]
+}
